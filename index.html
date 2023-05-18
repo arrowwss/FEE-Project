@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- local stylsheet link -->
+    <link rel="stylesheet" href="/index.css" />
+    <!-- box icon stylesheet -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <!-- pre nav text start -->
+      <div id="prenav-text">
+        <div class="flex-row">
+          <div class="contact-info">
+            Phone no: <span>+00 1234 567</span> or email us:
+            <span>emailsample@email.com</span>
+          </div>
+          <div class="opening-times flex-row">
+            Mon - Fri / 9:00 - 21:00 . Sat-Sun / 10:00-20:00
+            <ul class="social-links flex-row">
+              <li>
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bx bxl-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bx bxl-whatsapp"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bx bxl-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- pre nav text end -->
+
+      <!-- nav bar start -->
+    <nav id="navbar" class="navbar flex-row">
+        <div class="nav-icon menu-btn-wrapper">
+            <i id="menu-btn" class="menu-btn bx bx-menu"></i>
+        </div>
+ 
+        <div class="logo">
+            <h5>Taste.<span>it</span></h5> 
+        </div>
+
+        <ul id="nav-items" class="nav-items"> 
+            <li><a href="#" class="nav-links">Home</a></li>
+            <li><a href="#" class="nav-links">About</a></li>
+            <li><a href="#" class="nav-links">Menu</a></li>
+            <li><a href="#" class="nav-links">Reservation</a></li>
+            <li><a href="#" class="nav-links">Gallery</a></li>
+            <li><a href="#" class="nav-links">Contact</a></li>
+
+        </ul>
+        <ul class="nav-btns">
+            <div class="search-btn-wrapper nav-icon">
+                <i class="searchbtn bx bx-search-alt-2"></i>
+                <div id="search-form" class="search-form" >
+                <form action="#">
+                  <input type="search" class="search-data" placeholder="Search" required>
+                  <button type="submit" class="bx bx-search-alt-2"></button>
+                </form>
+              </div>
+            </div>
+
+
+            <div class="cart-btn-wrapper nav-icon">
+                <i class="cart-btn bx bx-cart"></i>
+                <div id="cart" class="cart flex-row">
+                  <span>No Products In The Cart</span>
+                </div>
+            </div>
+            
+            <div class="nav-icon">
+                <i class="darkbtn bx bx-moon"></i>
+            </div>
+        </ul>
+    </nav>    
+
+
+      <!-- nav bar end -->
+    </header>
+
+    <!-- home section start -->
+
+    <section id="home">
+      <div class="home-carousel owl-carousel owl-theme">
+        <div class="slide slide1">
+          <div class="content">
+            <p class="sub-heading">TASTE. IT RESTAURANT</p>
+            <h1 class="heading">Best Quality</h1>
+            <p class="sub-heading-2">FOOD</p>
+          </div>
+        </div>
+        <div class="slide slide2">
+          <div class="content">
+            <p class="sub-heading">TASTE. IT RESTAURANT</p>
+            <h1 class="heading">Cooking Since</h1>
+            <p class="sub-heading-2">1968</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- home section end -->
+
+
+    <!-- about section start -->
+
+    <section id="about" class="flex-row">
+      <div class= "booking-form">
+        <span> Take A</span>
+       <h2>RESERVATION</h2>
+        <form action="#">
+            <input type= "text" name="name" placeholder=" "Name">
+            <input type="text" name=" "email" placeholder="Email">
+            <input type= "text" name= "phone" placeholder-"Phone">
+            <input type= "date" name= "date" placeholder= "Date">
+            <input type= "time" name= "time" placeholder= "Time">
+            <textarea name= "msg" id= "msg" >Massage</textarea>
+            <a href="#" type= "submit" class= "btn1" ">Book A Table</a>
+        </form>
+   </div>
+
+
+   <div class="text-wrapper">
+     <h1>MARK WILLY</h1>
+     <h3>Head Chef</h3>
+     <p>Rorem ipsum dolor sit amet, consectetur <br>adipisicing elitsed eiusmod tempor incididunt.</p>
+    <div class="sign">
+      <img id="sign-img" src="sign-light.png" alt="# ">
+    </div>
+  </div>
+  <div class="img-wrapper">
+    <img src="about-img.png" alt="#">
+
+  </div>
+
+   
+
+    </section>
+
+
+    <!-- about section end -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <!-- local js script -->
+    <script src="/script.js "></script>
+  </body>
+</html>
